@@ -25,15 +25,6 @@ mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
 parent_path = file_path = Path(__file__).resolve().parent.parent.parent
 
-# Function for data preprocessing
-# def preprocess_data(data):
-
-#     # data = pd.read_csv(parent_path / 'data/preprocessed_data.csv')
-
-#     # Split data into X (features) and y (target)
-
-
-#     return X, y
 
 # Function for training the model
 # Each tree in the forest has a maximum of 3 splits
